@@ -1,5 +1,5 @@
 // Importar la función para traer las tareas del LocalStorage
-import { getTask } from "./task";
+import { getTasks } from "./task";
 
 // función para visualizar las tareas
 export const renderTasks = () => {
@@ -10,14 +10,14 @@ export const renderTasks = () => {
             const li = document.createElement("li");
             li.setAttribute("data-id", task.id);
 
-            if(task.copleted === true){
+            if(task.completed === true) {
                 li.classList.add("completed");
             }
 
             li.innerHTML = `
-            ${task.text}
-            <button class="delete"> Borrar </button>
-            <button class="toggle"> ${task.completed === true ? "Regresar" : "Completado" }   </button> 
+                 ${task.text}
+                <button class="delete"> Borrar </button>
+                <button class="toggle"> ${task.completed === true ? "Regresar" : "Completado" }   </button> 
             `;
 
             taskList.appendChild(li);
