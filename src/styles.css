@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jersey+10&display=swap');
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "BenchNine", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #9bf6ff;
     margin: 0; /*Margen fuera del margen*/
     padding: 0; /*Margen entre el margen y el cuerpo*/
     height: 100vh; /* Para ajustar margen a la medida del navegador*/
@@ -12,10 +15,10 @@ body {
 
 /* Estilos para el contenedor principal */
 #app {
-    background-color: white;
+    background-color: #cfbaf0;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #004e64(0, 0, 0, 0.1);
 }
 
 /* Estilos para el formulario */
@@ -29,14 +32,14 @@ input {
     width: 75%; /* Atributo para mover el ancho de algo y es en porcentaje */
     padding: 8px; /* Espacio interior*/
     margin-right: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #023047;
     border-radius: 3px;
 }
 
 /* Estilos al botón */
 button {
     padding: 5px 8px; /* Primer atributo es el espacio de arriba y de abajo. Y el segundo atributo es el pacio de los lados */
-    background-color: #007bff;
+    background-color: #b5179e;
     color: white;
     border: none; /* Para quitar un borde*/
     border-radius: 3px;

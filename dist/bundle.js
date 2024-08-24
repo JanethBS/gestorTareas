@@ -105,11 +105,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jersey+10&display=swap);"]);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `/* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: "BenchNine", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #9bf6ff;
     margin: 0; /*Margen fuera del margen*/
     padding: 0; /*Margen entre el margen y el cuerpo*/
     height: 100vh; /* Para ajustar margen a la medida del navegador*/
@@ -120,10 +123,10 @@ body {
 
 /* Estilos para el contenedor principal */
 #app {
-    background-color: white;
+    background-color: #cfbaf0;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #004e64(0, 0, 0, 0.1);
 }
 
 /* Estilos para el formulario */
@@ -137,14 +140,14 @@ input {
     width: 75%; /* Atributo para mover el ancho de algo y es en porcentaje */
     padding: 8px; /* Espacio interior*/
     margin-right: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #023047;
     border-radius: 3px;
 }
 
 /* Estilos al botón */
 button {
     padding: 5px 8px; /* Primer atributo es el espacio de arriba y de abajo. Y el segundo atributo es el pacio de los lados */
-    background-color: #007bff;
+    background-color: #b5179e;
     color: white;
     border: none; /* Para quitar un borde*/
     border-radius: 3px;
@@ -172,7 +175,7 @@ li {
 li.completed {
     text-decoration: line-through;
     color: #888;
-}`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA,sBAAsB;AACtB;IACI,8BAA8B;IAC9B,yBAAyB;IACzB,SAAS,EAAE,0BAA0B;IACrC,UAAU,EAAE,qCAAqC;IACjD,aAAa,EAAE,iDAAiD;IAChE,aAAa,EAAE,wCAAwC;IACvD,uBAAuB,EAAE,gCAAgC;IACzD,mBAAmB,EAAE,8BAA8B;AACvD;;AAEA,yCAAyC;AACzC;IACI,uBAAuB;IACvB,aAAa;IACb,kBAAkB;IAClB,uCAAuC;AAC3C;;AAEA,+BAA+B;AAC/B;IACI,aAAa;IACb,8BAA8B;;AAElC;AACA,qBAAqB;AACrB;IACI,UAAU,EAAE,4DAA4D;IACxE,YAAY,EAAE,oBAAoB;IAClC,kBAAkB;IAClB,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA,qBAAqB;AACrB;IACI,gBAAgB,EAAE,uGAAuG;IACzH,yBAAyB;IACzB,YAAY;IACZ,YAAY,EAAE,wBAAwB;IACtC,kBAAkB;IAClB,eAAe;AACnB;;AAEA,wBAAwB;AACxB;IACI,gBAAgB;IAChB,UAAU;AACd;;AAEA,wCAAwC;AACxC;IACI,yBAAyB;IACzB,aAAa;IACb,sBAAsB;IACtB,gBAAgB;IAChB,aAAa;IACb,8BAA8B;IAC9B,mBAAmB;AACvB;;AAEA,iDAAiD;AACjD;IACI,6BAA6B;IAC7B,WAAW;AACf","sourcesContent":["/* Estilos generales */\r\nbody {\r\n    font-family: Arial, sans-serif;\r\n    background-color: #f4f4f4;\r\n    margin: 0; /*Margen fuera del margen*/\r\n    padding: 0; /*Margen entre el margen y el cuerpo*/\r\n    height: 100vh; /* Para ajustar margen a la medida del navegador*/\r\n    display: flex; /* Para mover cosas en nuestra pantalla*/\r\n    justify-content: center; /* Mover cosas horizontalmente */\r\n    align-items: center; /* Mover cosas verticalmente */\r\n}\r\n\r\n/* Estilos para el contenedor principal */\r\n#app {\r\n    background-color: white;\r\n    padding: 20px;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\r\n}\r\n\r\n/* Estilos para el formulario */\r\nform {\r\n    display: flex;\r\n    justify-content: space-between;\r\n\r\n}\r\n/* Estilos al input */\r\ninput {\r\n    width: 75%; /* Atributo para mover el ancho de algo y es en porcentaje */\r\n    padding: 8px; /* Espacio interior*/\r\n    margin-right: 10px;\r\n    border: 1px solid #ddd;\r\n    border-radius: 3px;\r\n}\r\n\r\n/* Estilos al botón */\r\nbutton {\r\n    padding: 5px 8px; /* Primer atributo es el espacio de arriba y de abajo. Y el segundo atributo es el pacio de los lados */\r\n    background-color: #007bff;\r\n    color: white;\r\n    border: none; /* Para quitar un borde*/\r\n    border-radius: 3px;\r\n    cursor: pointer;\r\n}\r\n\r\n/* Estilos de la lista */\r\nul {\r\n    list-style: none;\r\n    padding: 0;\r\n}\r\n\r\n/* Estilos a los elementos de la lista */\r\nli {\r\n    background-color: #f4f4f4;\r\n    padding: 10px;\r\n    border: 1px solid #ddd;\r\n    margin-top: 10px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n/* Estilos para cuando una tarea esta completada*/\r\nli.completed {\r\n    text-decoration: line-through;\r\n    color: #888;\r\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AACA,sBAAsB;AACtB;IACI,oCAAoC;IACpC,gBAAgB;IAChB,kBAAkB;IAClB,yBAAyB;IACzB,SAAS,EAAE,0BAA0B;IACrC,UAAU,EAAE,qCAAqC;IACjD,aAAa,EAAE,iDAAiD;IAChE,aAAa,EAAE,wCAAwC;IACvD,uBAAuB,EAAE,gCAAgC;IACzD,mBAAmB,EAAE,8BAA8B;AACvD;;AAEA,yCAAyC;AACzC;IACI,yBAAyB;IACzB,aAAa;IACb,kBAAkB;IAClB,0CAA0C;AAC9C;;AAEA,+BAA+B;AAC/B;IACI,aAAa;IACb,8BAA8B;;AAElC;AACA,qBAAqB;AACrB;IACI,UAAU,EAAE,4DAA4D;IACxE,YAAY,EAAE,oBAAoB;IAClC,kBAAkB;IAClB,yBAAyB;IACzB,kBAAkB;AACtB;;AAEA,qBAAqB;AACrB;IACI,gBAAgB,EAAE,uGAAuG;IACzH,yBAAyB;IACzB,YAAY;IACZ,YAAY,EAAE,wBAAwB;IACtC,kBAAkB;IAClB,eAAe;AACnB;;AAEA,wBAAwB;AACxB;IACI,gBAAgB;IAChB,UAAU;AACd;;AAEA,wCAAwC;AACxC;IACI,yBAAyB;IACzB,aAAa;IACb,sBAAsB;IACtB,gBAAgB;IAChB,aAAa;IACb,8BAA8B;IAC9B,mBAAmB;AACvB;;AAEA,iDAAiD;AACjD;IACI,6BAA6B;IAC7B,WAAW;AACf","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jersey+10&display=swap');\r\n/* Estilos generales */\r\nbody {\r\n    font-family: \"BenchNine\", sans-serif;\r\n    font-weight: 300;\r\n    font-style: normal;\r\n    background-color: #9bf6ff;\r\n    margin: 0; /*Margen fuera del margen*/\r\n    padding: 0; /*Margen entre el margen y el cuerpo*/\r\n    height: 100vh; /* Para ajustar margen a la medida del navegador*/\r\n    display: flex; /* Para mover cosas en nuestra pantalla*/\r\n    justify-content: center; /* Mover cosas horizontalmente */\r\n    align-items: center; /* Mover cosas verticalmente */\r\n}\r\n\r\n/* Estilos para el contenedor principal */\r\n#app {\r\n    background-color: #cfbaf0;\r\n    padding: 20px;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 10px #004e64(0, 0, 0, 0.1);\r\n}\r\n\r\n/* Estilos para el formulario */\r\nform {\r\n    display: flex;\r\n    justify-content: space-between;\r\n\r\n}\r\n/* Estilos al input */\r\ninput {\r\n    width: 75%; /* Atributo para mover el ancho de algo y es en porcentaje */\r\n    padding: 8px; /* Espacio interior*/\r\n    margin-right: 10px;\r\n    border: 1px solid #023047;\r\n    border-radius: 3px;\r\n}\r\n\r\n/* Estilos al botón */\r\nbutton {\r\n    padding: 5px 8px; /* Primer atributo es el espacio de arriba y de abajo. Y el segundo atributo es el pacio de los lados */\r\n    background-color: #b5179e;\r\n    color: white;\r\n    border: none; /* Para quitar un borde*/\r\n    border-radius: 3px;\r\n    cursor: pointer;\r\n}\r\n\r\n/* Estilos de la lista */\r\nul {\r\n    list-style: none;\r\n    padding: 0;\r\n}\r\n\r\n/* Estilos a los elementos de la lista */\r\nli {\r\n    background-color: #f4f4f4;\r\n    padding: 10px;\r\n    border: 1px solid #ddd;\r\n    margin-top: 10px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n/* Estilos para cuando una tarea esta completada*/\r\nli.completed {\r\n    text-decoration: line-through;\r\n    color: #888;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
